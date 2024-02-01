@@ -1,6 +1,10 @@
+
 body{
     background-color: goldenrod;
     opacity: 100%;
+}
+.container{
+    width: 800px;
 }
 .row{
     float: right;
@@ -17,10 +21,13 @@ body{
     float: left;
 }
 .food2{
+    margin-top: 50px;
   float: right;
+    margin-left: 150px;
 }
 .food3{
     float: left;
+    margin-top: auto;
 }
 .img{
     width: 250px;
