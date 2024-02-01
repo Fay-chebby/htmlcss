@@ -13,3 +13,16 @@ body{
     padding: 0px;
     margin-left: 0px;
 }
+.food1{
+    float: left;
+}
+.food2{
+  float: right;
+}
+.food3{
+    float: left;
+}
+.img{
+    width: 250px;
+    height: 300px;
+}
