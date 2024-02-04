@@ -6,7 +6,8 @@ body{
 .container{
     width: 800px;
 }
-.row{
+/* floats*/
+/*.row{
     float: right;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -32,4 +33,20 @@ body{
 .img{
     width: 250px;
     height: 300px;
+}*/
+/*flexbox*/
+.row{
+
+}
+.h1{
+
+}
+.food1{
+
+}
+.food2{
+
+}
+.food3{
+
 }
