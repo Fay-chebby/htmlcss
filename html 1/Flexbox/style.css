@@ -6,6 +6,7 @@
 }
 .el--3{
     background-color: goldenrod;
+    height: 250px;
 }
 .el--4{ background-color: green}
 .el--5{
@@ -22,6 +23,9 @@
 .container{
     font-family: sans-serif;
     background-color: white;
-    font-size: 40px;
+    font-size: 34 px;
     margin: 40px;
+    /*flexbox*/
+    display: flex;
 }
+
