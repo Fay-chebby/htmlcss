@@ -1,6 +1,7 @@
 .el--1{
     background-color: blueviolet;
     align-self: flex-start;
+    flex-grow: 2;
 }
 .el--2{
     background-color: orangered;
@@ -28,13 +29,21 @@
     font-family: sans-serif;
     background-color: #ddd;
     font-size: 32px;
-    margin: 0;
+
     width: 900px;
     /*flexbox*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
-    gap: 30px;
-}
 
+}
+.el{
+    /*
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    flex: 0 0 200px;
+
+     */
+    flex-basis: 100px;
+}
