@@ -6,6 +6,10 @@ body{
 .container{
     width: 800px;
 }
+.img{
+    width: 250px;
+    height: 300px;
+}
 /* floats*/
 /*.row{
     float: right;
@@ -30,23 +34,34 @@ body{
     float: left;
     margin-top: auto;
 }
-.img{
-    width: 250px;
-    height: 300px;
-}*/
+*/
 /*flexbox*/
 .row{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+
+}
+.a{
+    justify-content: left;
 }
 .h1{
-
+justify-content: flex-start;
 }
 .food1{
-
+display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .food2{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .food3{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
