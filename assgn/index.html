@@ -122,19 +122,14 @@
           .addEventListener("submit", function (event) {
             event.preventDefault();
 
-            // Validate form inputs
             if (validateForm()) {
-              // Form is valid, submit form
               alert("Form submitted successfully!");
-              // You can add code here to submit the form to the server
             }
           });
 
-        // Function to display confirmation dialog when cancel button is clicked
         function showCancelConfirmation() {
           const isConfirmed = confirm("Are you sure you want to cancel?");
           if (isConfirmed) {
-            // Redirect to a different page or perform any other action
             alert("Cancel operation confirmed.");
           }
         }
