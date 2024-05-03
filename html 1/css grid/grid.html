@@ -10,6 +10,10 @@
         text-align: center;
       }
       #contents {
+        display: grid;
+        /*grid-template-columns: 33.3% 33.3% 33.3%;*/
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(3, 1fr);
         max-width: 960px;
         margin: 0 auto;
       }
