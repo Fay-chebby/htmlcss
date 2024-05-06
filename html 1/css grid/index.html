@@ -3,11 +3,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS GRID</title>
+    <style>
+      body {
+        color: beige;
+        text-align: center;
+      }
+      #content {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+
+        max-width: 960px;
+        margin: 0 auto;
+      }
+    </style>
   </head>
   <body>
     <div id="content">
       <header>Header</header>
       <main>Main</main>
+      <section>Section</section>
       <aside>Aside</aside>
       <nav>Nav</nav>
       <footer>Footer</footer>
